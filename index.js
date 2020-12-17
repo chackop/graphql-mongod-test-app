@@ -16,7 +16,7 @@ const root = {
       firstName: "Manny",
       lastName: "Henri",
       gender: "Male",
-      email: "me@me.com",
+      emails: [{ email: "me@me.com" }, { email: "another@me.com" }],
     };
   },
 };
