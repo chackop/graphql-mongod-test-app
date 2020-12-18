@@ -9,18 +9,6 @@ app.get("/", (req, res) => {
   res.send("Graphql setup");
 });
 
-// const root = { hello: () => "Hello request for graphql" };
-// const root = {
-//   friend: () => {
-//     return {
-//       id: 5658489489,
-//       firstName: "Manny",
-//       lastName: "Henri",
-//       gender: "Male",
-//       emails: [{ email: "me@me.com" }, { email: "another@me.com" }],
-//     };
-//   },
-// };
 const root = resolvers;
 
 app.use(
